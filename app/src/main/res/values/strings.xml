@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FirstGame</string>
+
+    <string name="title">Left or Right</string>
+    <string name="action_settings">Settings</string>
+    <string name="play">Play</string>
+    <string name="title_activity_play">Play</string>
+    <string name="highscoretitle">High Score:</string>
+    <string name="button_right">Right</string>
+    <string name="button_left">Left</string>
+    <string name="title_activity_game_over">GameOver</string>
+    <string name="game_over">Game Over!</string>
+    <string name="title_activity_mode">Mode</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_timed">Timed</string>
+
+</resources>

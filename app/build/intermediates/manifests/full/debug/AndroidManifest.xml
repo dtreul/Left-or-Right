@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.restart.derricktreul.firstgame"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="22" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.restart.derricktreul.firstgame.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.restart.derricktreul.firstgame.Quick"
+            android:label="@string/title_activity_play" >
+        </activity>
+        <activity
+            android:name="com.restart.derricktreul.firstgame.GameOver"
+            android:label="@string/title_activity_game_over" >
+        </activity>
+        <activity
+            android:name="com.restart.derricktreul.firstgame.Mode"
+            android:label="@string/title_activity_mode" >
+        </activity>
+        <activity
+            android:name="com.restart.derricktreul.firstgame.Timed"
+            android:label="@string/title_activity_timed" >
+        </activity>
+    </application>
+
+</manifest>
